@@ -11,9 +11,7 @@ public class Calculator {
             //System.out.println("divding on 0 is forbiden");
 
         }
-        result = x / y;
-
-        return result;
+        return x / y;
     }
 
     public static double add (){
@@ -24,16 +22,12 @@ public class Calculator {
 
     public static double sub (){
         double result;
-        result = x - y;
-
-        return result;
+        return x - y;
     }
 
     public static double mult (){
         double result;
-        result = x * y;
-
-        return result;
+        return x * y;
     }
 
 }
