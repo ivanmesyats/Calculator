@@ -24,4 +24,10 @@ public class Calculator {
         return x * y;
     }
 
+    public class CalculatorFin extends Calculator {
+
+        public double newfunct;
+    //    System.out.println ("bla bla bla");
+
+    }
 }
