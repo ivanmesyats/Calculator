@@ -1,27 +1,28 @@
 package org.example;
 public class Calculator {
 
-    static double x, y;
+     public double a, b;
 
-    public static double div (){
+    public double div (){
 
-        if (y == 0) {
+        if (b == 0) {
             throw new RuntimeException("Division by zero is not allowed");
 
         }
-        return x / y;
+        return a / b;
     }
 
-    public static double add (){
-        return x + y;
+    public double add (){
+        return a + b;
     }
 
-    public static double sub (){
-        return x - y;
+    public double sub (){
+        return a - b;
     }
 
-    public static double mult (){
-        return x * y;
+    public double mult (){
+        return a * b;
     }
+
 
 }
