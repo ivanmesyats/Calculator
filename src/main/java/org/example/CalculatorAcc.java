@@ -14,4 +14,10 @@ public class CalculatorAcc extends Calculator{
 
     }
 
+    public double vat () {
+
+        return a / (1+0.2) * 0.2;
+
+    }
+
 }

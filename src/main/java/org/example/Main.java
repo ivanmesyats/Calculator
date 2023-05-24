@@ -18,10 +18,11 @@ public class Main {
         CalculatorAcc acc = new CalculatorAcc();
 
         // a is a Tax base
-        acc.a = 260;
+        acc.a = 100000;
 
-        System.out.println("ЗбірДоФССВБ = " + acc.socialInsurance() + " %");
-        System.out.println("Income Tax  = " + acc.incomeTax() + " %");
+        System.out.println("ЗбірДоФССВБ = " + acc.socialInsurance());
+        System.out.println("Income Tax  = " + acc.incomeTax());
+        System.out.println("Value added tax  = " + acc.vat());
 
 //Enginering
 
