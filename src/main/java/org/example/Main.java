@@ -13,7 +13,7 @@ public class Main {
         System.out.println("% " + fin.percent());
         System.out.println("Simple percentage of sales = " + fin.percentFromSales());
 
-        //accounter
+//accounter
 
         CalculatorAcc acc = new CalculatorAcc();
 
@@ -21,6 +21,7 @@ public class Main {
         acc.a = 260;
 
         System.out.println("ЗбірДоФССВБ = " + acc.socialInsurance() + " %");
+        System.out.println("Income Tax  = " + acc.incomeTax() + " %");
 
 //Enginering
 
